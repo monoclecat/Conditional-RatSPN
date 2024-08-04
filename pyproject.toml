@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "spn4rl"
+version = "0.1.0"
+description = ""
+authors = ["Andy <git@andrewdelay.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.11.1"
+black = "^24.8.0"
+ruff = "^0.5.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
